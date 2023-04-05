@@ -21,6 +21,5 @@ class NoWorkoutImage: UIImageView {
     private func setupImage() {
         image = UIImage(named: "noWorkout")
         contentMode = .scaleAspectFit
-        translatesAutoresizingMaskIntoConstraints = false
     }
 }

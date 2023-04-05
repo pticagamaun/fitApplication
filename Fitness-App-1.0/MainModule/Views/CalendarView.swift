@@ -23,7 +23,6 @@ class CalendarView: UIView {
     
     //MARK: - Private Funcs
     private func setupView() {
-        
         backgroundColor = .specialGreen
         layer.cornerRadius = 10
         translatesAutoresizingMaskIntoConstraints = false
@@ -36,11 +35,8 @@ class CalendarView: UIView {
     }
 }
 
-
-
 //MARK: - Constraints
 extension CalendarView {
-    
     private func setConstraints() {
         NSLayoutConstraint.activate([
             callendarCollection.topAnchor.constraint(equalTo: topAnchor, constant: 5),
@@ -49,7 +45,6 @@ extension CalendarView {
             callendarCollection.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -5)
         ])
     }
-    
 }
 
 

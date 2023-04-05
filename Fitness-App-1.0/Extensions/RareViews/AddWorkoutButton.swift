@@ -23,11 +23,11 @@ class AddWorkoutButton: UIButton {
         addShadowOnView()
     }
     
-    convenience init(font: UIFont?) {
+    convenience init(font: UIFont?, target: Any, action: Selector) {
         self.init(type: .system)
         self.titleLabel?.font = font
+        self.addTarget(target, action: action, for: .touchUpInside)
     }
-    
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
