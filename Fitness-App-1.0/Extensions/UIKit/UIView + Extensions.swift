@@ -15,9 +15,12 @@ extension UIView {
         self.layer.shadowOpacity = 0.7
     }
     
-    
-    func addView(_ view: UIView) {
-        self.addSubview(view)
-        view.translatesAutoresizingMaskIntoConstraints = false
+    func addViews(_ view: [UIView]) {
+        let views = view
+        for view in views {
+            self.addSubview(view)
+            view.translatesAutoresizingMaskIntoConstraints = false
+        }
+        
     }
 }
