@@ -42,7 +42,6 @@ class MainTableView: UITableView {
         bounces = false
         showsVerticalScrollIndicator = false
         delaysContentTouches = false
-        translatesAutoresizingMaskIntoConstraints = false
     }
     
     //MARK: - Public Funcs

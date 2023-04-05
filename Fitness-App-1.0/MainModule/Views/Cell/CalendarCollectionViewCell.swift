@@ -28,7 +28,6 @@ class CalendarCollectionViewCell: UICollectionViewCell {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        
         configure()
         setConstraints()
     }
@@ -51,13 +50,10 @@ class CalendarCollectionViewCell: UICollectionViewCell {
         numberOfDayLabel.text = numberOfDay
         dayOfWeekLabel.text = dayOfWeek
     }
-    
 }
-
 
 //MARK: - setConstraints
 extension CalendarCollectionViewCell {
-    
     private func setConstraints() {
         NSLayoutConstraint.activate([
             dayOfWeekLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
@@ -65,9 +61,6 @@ extension CalendarCollectionViewCell {
             
             numberOfDayLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
             numberOfDayLabel.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -5)
-        
         ])
-    }
-    
-    
+    }  
 }
