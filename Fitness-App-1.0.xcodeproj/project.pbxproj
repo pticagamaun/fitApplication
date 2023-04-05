@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		496FF1FDE5E9DBA84ED343E1 /* Pods_Fitness_App_1_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A70DDB8C785D837BE5921FA /* Pods_Fitness_App_1_0.framework */; };
+		DD71B75029DCA3B900657D22 /* GetWorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD71B74F29DCA3B900657D22 /* GetWorkoutModel.swift */; };
+		DD71B75229DCAF6A00657D22 /* UserPhotoImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD71B75129DCAF6A00657D22 /* UserPhotoImageView.swift */; };
 		DD75FF70291EBBE800893A68 /* UIColor + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD75FF6F291EBBE800893A68 /* UIColor + Extensions.swift */; };
 		DD75FF72291EBD2300893A68 /* UIFonts + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD75FF71291EBD2300893A68 /* UIFonts + Extensions.swift */; };
 		DD75FF76291EBDAD00893A68 /* UIView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD75FF75291EBDAD00893A68 /* UIView + Extensions.swift */; };
@@ -73,6 +75,8 @@
 		1D22576D808D010F34FE0473 /* Pods-Fitness-App-1.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitness-App-1.0.release.xcconfig"; path = "Target Support Files/Pods-Fitness-App-1.0/Pods-Fitness-App-1.0.release.xcconfig"; sourceTree = "<group>"; };
 		3A70DDB8C785D837BE5921FA /* Pods_Fitness_App_1_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fitness_App_1_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		420435BF8C367002ABE8A015 /* Pods-Fitness-App-1.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitness-App-1.0.debug.xcconfig"; path = "Target Support Files/Pods-Fitness-App-1.0/Pods-Fitness-App-1.0.debug.xcconfig"; sourceTree = "<group>"; };
+		DD71B74F29DCA3B900657D22 /* GetWorkoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWorkoutModel.swift; sourceTree = "<group>"; };
+		DD71B75129DCAF6A00657D22 /* UserPhotoImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhotoImageView.swift; sourceTree = "<group>"; };
 		DD75FF6F291EBBE800893A68 /* UIColor + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extensions.swift"; sourceTree = "<group>"; };
 		DD75FF71291EBD2300893A68 /* UIFonts + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFonts + Extensions.swift"; sourceTree = "<group>"; };
 		DD75FF75291EBDAD00893A68 /* UIView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extensions.swift"; sourceTree = "<group>"; };
@@ -392,6 +396,7 @@
 				DD8394F529213E8D00B305CA /* WorkoutModel.swift */,
 				DD79FDE5292F8F3900706041 /* UserModel.swift */,
 				DD79FDEE293164AF00706041 /* WeatherModel.swift */,
+				DD71B74F29DCA3B900657D22 /* GetWorkoutModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -430,6 +435,7 @@
 				DDF3AD442921001400D0095B /* GreenButton.swift */,
 				DD8395132926A19800B305CA /* NoWorkoutImage.swift */,
 				DD839518292966E800B305CA /* CustomAlert.swift */,
+				DD71B75129DCAF6A00657D22 /* UserPhotoImageView.swift */,
 			);
 			path = RareViews;
 			sourceTree = "<group>";
@@ -706,6 +712,7 @@
 				DDF3AD39291FDD9800D0095B /* BrownTextField.swift in Sources */,
 				DD79FDE3292E8F2E00706041 /* SettingsViewController.swift in Sources */,
 				DD75FF72291EBD2300893A68 /* UIFonts + Extensions.swift in Sources */,
+				DD71B75029DCA3B900657D22 /* GetWorkoutModel.swift in Sources */,
 				DDF3AD17291EC6E800D0095B /* CalendarCollectionView.swift in Sources */,
 				DD915054291EB67000AD864A /* MainViewController.swift in Sources */,
 				DD79FDED2931375700706041 /* Notifications .swift in Sources */,
@@ -715,6 +722,7 @@
 				DD8395142926A19800B305CA /* NoWorkoutImage.swift in Sources */,
 				DDF3AD2A291FAB0900D0095B /* SegmentedStatistics.swift in Sources */,
 				DD83950B2923EB4600B305CA /* RepsWorkoutParameters.swift in Sources */,
+				DD71B75229DCAF6A00657D22 /* UserPhotoImageView.swift in Sources */,
 				DD91506E291EB99300AD864A /* AddWorkoutButton.swift in Sources */,
 				DDF3AD1C291ED3A100D0095B /* MainTableView.swift in Sources */,
 				DD79FDF229316BE200706041 /* NetworkRequest.swift in Sources */,
