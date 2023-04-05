@@ -10,6 +10,7 @@
 		496FF1FDE5E9DBA84ED343E1 /* Pods_Fitness_App_1_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A70DDB8C785D837BE5921FA /* Pods_Fitness_App_1_0.framework */; };
 		DD71B75029DCA3B900657D22 /* GetWorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD71B74F29DCA3B900657D22 /* GetWorkoutModel.swift */; };
 		DD71B75229DCAF6A00657D22 /* UserPhotoImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD71B75129DCAF6A00657D22 /* UserPhotoImageView.swift */; };
+		DD71B75429DD79C500657D22 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DD71B75329DD79C500657D22 /* .gitignore */; };
 		DD75FF70291EBBE800893A68 /* UIColor + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD75FF6F291EBBE800893A68 /* UIColor + Extensions.swift */; };
 		DD75FF72291EBD2300893A68 /* UIFonts + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD75FF71291EBD2300893A68 /* UIFonts + Extensions.swift */; };
 		DD75FF76291EBDAD00893A68 /* UIView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD75FF75291EBDAD00893A68 /* UIView + Extensions.swift */; };
@@ -77,6 +78,7 @@
 		420435BF8C367002ABE8A015 /* Pods-Fitness-App-1.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitness-App-1.0.debug.xcconfig"; path = "Target Support Files/Pods-Fitness-App-1.0/Pods-Fitness-App-1.0.debug.xcconfig"; sourceTree = "<group>"; };
 		DD71B74F29DCA3B900657D22 /* GetWorkoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWorkoutModel.swift; sourceTree = "<group>"; };
 		DD71B75129DCAF6A00657D22 /* UserPhotoImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhotoImageView.swift; sourceTree = "<group>"; };
+		DD71B75329DD79C500657D22 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		DD75FF6F291EBBE800893A68 /* UIColor + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extensions.swift"; sourceTree = "<group>"; };
 		DD75FF71291EBD2300893A68 /* UIFonts + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFonts + Extensions.swift"; sourceTree = "<group>"; };
 		DD75FF75291EBDAD00893A68 /* UIView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extensions.swift"; sourceTree = "<group>"; };
@@ -347,6 +349,7 @@
 				DD8394FE2921697F00B305CA /* Service */,
 				DD79FDF029316B9A00706041 /* Network */,
 				DD915064291EB7C400AD864A /* Resources */,
+				DD71B75329DD79C500657D22 /* .gitignore */,
 			);
 			path = "Fitness-App-1.0";
 			sourceTree = "<group>";
@@ -628,6 +631,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD71B75429DD79C500657D22 /* .gitignore in Resources */,
 				DD91505C291EB67800AD864A /* LaunchScreen.storyboard in Resources */,
 				DD915059291EB67800AD864A /* Assets.xcassets in Resources */,
 				DDF3AD15291EC34300D0095B /* Roboto-Bold.ttf in Resources */,
